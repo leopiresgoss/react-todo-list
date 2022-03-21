@@ -33,9 +33,7 @@ const TodoItem = props => {
   }
 
   useEffect(() => {
-    return () => {
-      console.log("Cleaning up...")
-    }
+    return () => {}
   }, [])
 
   return (
